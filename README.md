@@ -13,7 +13,7 @@
   then the second-smallest, etc.
 
 - ### Distributed program specifications
-  Complete the `netsort.go` program that will concurrently run on multiple machines. The program
+  The `netsort.go` program will concurrently run on multiple machines. The program
   should broadly have the following architecture/specs :  
   - read the input file,
   - appropriately partition the data,
@@ -51,7 +51,6 @@
 
 ---
 
-### What is being provided
 - **Input/Output files** :
   To do a functional verification of your `netsort` routine, you can use the `gensort` utility being provided along with 
   the starter-code. We are providing you with testcase1 input in the `dist/testcase1` folder.
